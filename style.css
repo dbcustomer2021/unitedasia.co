@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 0;
+  }
+  
+  li {
+    margin: 2px;
+    display: inline;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 2px;
+  }
+  a{
+    text-decoration: none;
+    padding: 5px;
+  }
+  li>a:hover{
+    background-color: gray;
+    color: white;
+  }
+  .container>{
+    
+  }
+  #idlangugeMobile{
+    display: none;
+  }
+  .containermap{
+    width: 80%;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .imagemap{
+    position: absolute;
+    z-index: 2; 
+    right: 200px;
+    width: 300px;
+    height: 300px;
+   
+  }
+  .container-fluid{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  #topmobile{
+    display: none;
+  }
+  @media only screen and (max-width: 800px) {
+     #topdesktop{
+    display: none;
+  }
+  #carouselExampleDark{
+    height: 200px;
+  }
+  .container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #topmobile{
+    display: block;
+  }
+  #idlanguge{
+    display: none;
+  }
+  #idlangugeMobile{
+    display: block;
+  }
+  .containermap {
+    width: 100%;
+  }
+  .imagemap{
+    right: -30%;
+  }
+  .imagemap img{
+    width: 200px;
+    height: 200px;
+  }
+  .col-md-3{
+    margin-top: 20px;
+  }
+  .col-md-3 img{
+    width: 85%;
+    height: 300px;
+  }
+  .container-fluid{
+     height: 100px;
+  }
+ .carousel-inner{
+      height: 200px;
+ }
+  .carousel-indicators{
+    height: 250px;
+  }
+  .carousel-control-prev,.carousel-control-next{
+    bottom: 50%;
+  }
+  .col-md-7{
+    height: 0px;
+    display: none;
+    visibility: hidden;
+  }
+ .container h3{
+  margin-top: 30px;
+ }
+ .carousel-item img{
+  height: 400px;
+ }
+ .containerlanguge{
+  display: none;
+ }
+ #containertop{
+  display: none;
+ }
+ #idimgbando{
+  width: 420px;
+ }
+ .carousel-inner img{
+  height: 250px;
+ }
+ li {
+    width: 50px;
+    margin: 0px;
+    display: inline;
+    font-size: 13px;
+    font-weight: 900;
+    padding: 2px;
+  }
+  a{
+    width: 50px;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    word-wrap:break-word;
+  }
+}
+
+
+  ul.hover > .submenu{
+    display:block;
+  }
+
+
+  .submenu{
+    display:none;
+  }
+
+.flexContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.containerlanguge{
+  width: 90%;
+  display: none;
+}
+
